@@ -27,6 +27,7 @@ public class BaseBallGame {
 		while (!exit) {
 			player.inputAnswer();
 			calculatorScore();
+			result.resultPrint(strikeCount, ballCount);
 		}
 	}
 

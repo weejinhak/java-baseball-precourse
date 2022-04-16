@@ -17,7 +17,7 @@ public class Player extends Ball {
 		super.ballSet = new HashSet<>();
 		for (int i = 0; i < playerNum.length(); i++) {
 			char currentCharacter = playerNum.charAt(i);
-			ballSet.add((int) currentCharacter);
+			ballSet.add(Character.getNumericValue(currentCharacter));
 		}
 	}
 
